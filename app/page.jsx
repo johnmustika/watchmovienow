@@ -254,7 +254,7 @@ export default async function HomePage() {
       <section className="relative bg-gradient-to-r from-purple-900/80 to-slate-900 py-16 lg:py-20" itemScope itemType="https://schema.org/WPHeader">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 text-white" itemProp="headline">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 text-white" itemProp="headline">
             WatchNow | Trending Movies & TV Shows to Stream Today
           </h1>
           <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto" itemProp="description">
