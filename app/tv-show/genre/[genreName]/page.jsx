@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
 
   const title = genre?.name || 'Unknown';
   
-  const pageUrl = `https://watchnow-movies.vercel.app/tv-show/genre/${genreName}`;
+  const pageUrl = `https://watchnowmovie.netlify.app/tv-show/genre/${genreName}`;
   const imageUrl = 'https://live.staticflickr.com/65535/55084415924_d4029dae39_b.jpg';
 
   return {

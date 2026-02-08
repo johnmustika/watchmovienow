@@ -12,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: 'Watch Movies Online Free | Stream TV Series HD - WatchNow',
     description: 'Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video. Get streaming guides, actor profiles, and genre recommendations.',
-    url: 'https://watchnow-movies.vercel.app',
+    url: 'https://watchnowmovie.netlify.app',
     siteName: 'WatchNow',
     images: [
       {
@@ -47,9 +47,9 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="LSGOjDS36Zo6hksqRsv5uJkxoXD7aylSQHJl9ffKZz0" />
+        <meta name="google-site-verification" content="1_ra9W1sGRPG3OwN8jYIKquqjQkLZ8BEhmiJITwtsaU" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://watchnow-movies.vercel.app" />
+        <link rel="canonical" href="https://watchnowmovie.netlify.app" />
         
         {/* Structured Data untuk SEO */}
         <script
@@ -59,10 +59,10 @@ export default async function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "WatchNow",
-              "url": "https://watchnow-movies.vercel.app",
+              "url": "https://watchnowmovie.netlify.app",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://watchnow-movies.vercel.app/search?q={search_term_string}",
+                "target": "https://watchnowmovie.netlify.app/search?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               },
               "description": "Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video.",
@@ -77,7 +77,7 @@ export default async function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "WatchNow",
-              "url": "https://watchnow-movies.vercel.app",
+              "url": "https://watchnowmovie.netlify.app",
               "logo": "https://live.staticflickr.com/65535/55084415924_d4029dae39_b.jpg",
               "description": "Streaming guide and movie database",
               "sameAs": [
@@ -99,7 +99,7 @@ export default async function RootLayout({ children }) {
               <div className="max-w-7xl mx-auto px-4 flex justify-center">
                 <AdBanner 
                   adId="728x90_header"
-                  scriptKey="39cee4edabdcf3a061c07c70a8ea32af"
+                  scriptKey="c9b1c90d2b7cd192bb949de72868c564"
                   height={90} 
                   width={728}
                   className="rounded-lg overflow-hidden shadow-lg"
@@ -112,7 +112,7 @@ export default async function RootLayout({ children }) {
             </main>
             
             <footer className="w-full max-w-7xl mx-auto px-4 py-8">
-              <div id="container-496dde0123448ad6ccb4db9daf5371c8"></div>
+              <div id="container-4a4203db00ee1d954cb5bc10cc999ecb"></div>
               <Footer />
             </footer>
           </div>

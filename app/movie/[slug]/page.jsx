@@ -104,7 +104,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: movieData.title,
       description: movieData.overview || `Detailed information for movie ${movieData.title}`,
-      url: `https://watchnow-movies.vercel.app/movie/${slug}`,
+      url: `https://watchnowmovie.netlify.app/movie/${slug}`,
       siteName: 'WatchNow',
       images: [
         {

@@ -158,24 +158,24 @@ export default async function HomePage() {
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://watchnow-movies.vercel.app/#website",
-        "url": "https://watchnow-movies.vercel.app/",
+        "@id": "https://watchnowmovie.netlify.app/#website",
+        "url": "https://watchnowmovie.netlify.app/",
         "name": "WatchNow",
         "description": "Discover trending movies and TV series to stream today across Netflix, Disney+, Prime Video, Hulu, HBO Max and other streaming platforms",
         "potentialAction": [{
           "@type": "SearchAction",
-          "target": "https://watchnow-movies.vercel.app/search?q={search_term_string}",
+          "target": "https://watchnowmovie.netlify.app/search?q={search_term_string}",
           "query-input": "required name=search_term_string"
         }],
         "inLanguage": "en-US"
       },
       {
         "@type": "WebPage",
-        "@id": "https://watchnow-movies.vercel.app/#webpage",
-        "url": "https://watchnow-movies.vercel.app/",
+        "@id": "https://watchnowmovie.netlify.app/#webpage",
+        "url": "https://watchnowmovie.netlify.app/",
         "name": "WatchNow | Trending Movies & TV Shows to Stream Today",
         "description": "Watch trending movies and TV series for free. Discover what's popular today across Netflix, Disney+, Prime Video. Daily updated trending content.",
-        "isPartOf": { "@id": "https://watchnow-movies.vercel.app/#website" },
+        "isPartOf": { "@id": "https://watchnowmovie.netlify.app/#website" },
         "about": "Movie and TV show streaming guide",
         "primaryImageOfPage": {
           "@type": "ImageObject",
@@ -185,17 +185,17 @@ export default async function HomePage() {
         },
         "datePublished": "2024-01-01",
         "dateModified": new Date().toISOString().split('T')[0],
-        "breadcrumb": { "@id": "https://watchnow-movies.vercel.app/#breadcrumb" }
+        "breadcrumb": { "@id": "https://watchnowmovie.netlify.app/#breadcrumb" }
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://watchnow-movies.vercel.app/#breadcrumb",
+        "@id": "https://watchnowmovie.netlify.app/#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://watchnow-movies.vercel.app/"
+            "item": "https://watchnowmovie.netlify.app/"
           }
         ]
       },
@@ -505,7 +505,7 @@ export const metadata = {
   openGraph: {
     title: 'WatchNow | Trending Movies & TV Shows to Stream Today',
     description: 'Discover what\'s trending today across all streaming platforms. Daily updated with the hottest movies and TV series available to watch online.',
-    url: 'https://watchnow-movies.vercel.app/',
+    url: 'https://watchnowmovie.netlify.app/',
     siteName: 'WatchNow',
     images: [
       {
@@ -527,7 +527,7 @@ export const metadata = {
     images: ['https://live.staticflickr.com/65535/55084415924_d4029dae39_b.jpg'],
   },
   alternates: {
-    canonical: 'https://watchnow-movies.vercel.app/',
+    canonical: 'https://watchnowmovie.netlify.app/',
   },
 };
 
